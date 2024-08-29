@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zRKRAeCR6Zc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zombe\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zombe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\zombe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\zombe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\zombe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\zombe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\zombe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
