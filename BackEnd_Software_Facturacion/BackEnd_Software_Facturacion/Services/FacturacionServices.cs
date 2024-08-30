@@ -1,4 +1,4 @@
-﻿using CapaDatos.FacturacionModel;
+﻿using CapaDatos;
 using CapaLogica.Interface;
 
 namespace BackEnd_Software_Facturacion.Services

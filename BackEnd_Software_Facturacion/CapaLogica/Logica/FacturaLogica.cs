@@ -1,4 +1,5 @@
-﻿using CapaDatos.FacturacionModel;
+﻿using CapaDatos;
+
 using CapaLogica.Interface;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace CapaLogica.Logica
     public class FacturaLogica : IFactura
     {
         // aplicaremos facade para la factura
-        FacturacionContext dbContext;
+        FacturaContext dbContext;
 
-        public FacturaLogica(FacturacionContext dbContext)
+        public FacturaLogica(FacturaContext dbContext)
         {
             this.dbContext = dbContext;
         }

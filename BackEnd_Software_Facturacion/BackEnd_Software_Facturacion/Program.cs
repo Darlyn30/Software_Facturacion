@@ -1,4 +1,4 @@
-using CapaDatos.FacturacionModel;
+using CapaDatos;
 using CapaLogica.Interface;
 using CapaLogica.Logica;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var conn = builder.Configuration.GetConnectionString("AppConnection");
-builder.Services.AddDbContext<FacturacionContext>(x => x.UseSqlServer(conn));
+builder.Services.AddDbContext<FacturaContext>(x => x.UseSqlServer(conn));
 //add services
 builder.Services.AddScoped<IFactura, FacturaLogica>();
 
@@ -29,6 +29,14 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+// fix CORS problem on API
+app.UseCors(policy =>
+{
+    policy.AllowAnyOrigin();
+    policy.AllowAnyHeader();
+    policy.AllowAnyMethod();
+});
 
 app.MapControllers();
 

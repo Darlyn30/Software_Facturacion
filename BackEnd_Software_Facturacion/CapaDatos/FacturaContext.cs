@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace CapaDatos.FacturacionModel;
+namespace CapaDatos;
 
-public partial class FacturacionContext : DbContext
+public partial class FacturaContext : DbContext
 {
-    public FacturacionContext()
+    public FacturaContext()
     {
     }
 
-    public FacturacionContext(DbContextOptions<FacturacionContext> options)
+    public FacturaContext(DbContextOptions<FacturaContext> options)
         : base(options)
     {
     }
@@ -25,22 +25,28 @@ public partial class FacturacionContext : DbContext
     {
         modelBuilder.Entity<Factura>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__facturas__3214EC0752324848");
+            entity.HasKey(e => e.Id).HasName("PK__facturas__3214EC072E55C1F8");
 
             entity.ToTable("facturas");
 
             entity.Property(e => e.Apellido)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.CantidadPedido).HasColumnName("cantidad_pedido");
+            entity.Property(e => e.DescripcionPedido)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("descripcion_pedido");
             entity.Property(e => e.FechaHora)
                 .HasColumnType("datetime")
                 .HasColumnName("Fecha_hora");
-            entity.Property(e => e.GarantiaVencimiento)
-                .HasColumnType("datetime")
-                .HasColumnName("Garantia_vencimiento");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.Pedido)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("pedido");
         });
 
         OnModelCreatingPartial(modelBuilder);

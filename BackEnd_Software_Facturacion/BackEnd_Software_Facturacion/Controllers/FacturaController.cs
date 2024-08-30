@@ -1,5 +1,5 @@
 ﻿using BackEnd_Software_Facturacion.Services;
-using CapaDatos.FacturacionModel;
+using CapaDatos;
 using CapaLogica.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +32,7 @@ namespace BackEnd_Software_Facturacion.Controllers
 
         public void SetFacturas(Factura model)
         {
-            services.setFactura(model);
+            oFactura.agregarFactura(model);
         }
 
     }

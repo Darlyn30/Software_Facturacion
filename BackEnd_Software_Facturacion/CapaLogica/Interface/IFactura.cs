@@ -1,4 +1,4 @@
-﻿using CapaDatos.FacturacionModel;
+﻿using CapaDatos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
