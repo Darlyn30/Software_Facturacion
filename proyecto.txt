@@ -1,0 +1,7 @@
+el proyecto sera de un sistema de facturacion web, aunque deberia ser una app, pero aun no estoy en ese nivel
+esto me puede servir para aplicarlo a una futura app o futura web que sea para un negocio y guardar facturas
+
+al crear la base de datos, me di cuenta que tengo que saber bajo que contexto va a ir enfocado nuestro sistema
+de facturacion
+
+voy a imaginar que es enfocado a un negocio de venta de piezas de pc
