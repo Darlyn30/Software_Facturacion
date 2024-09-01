@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/confirmation.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">Tienda de PCs</div>
+        </nav>
+    </header>
+
+    <section id="confirmation">
+        <h2>Confirmación de Pago</h2>
+        <p>Has seleccionado el método de pago: <span id="selected-method"></span></p>
+        <p>Por favor, revisa la información antes de proceder con el pago.</p>
+
+        <div id="card-payment-form" style="display:none;">
+            <h3>Pago con Tarjeta</h3>
+            <form id="payment-form">
+                <div>
+                    <label for="card-number">Número de Tarjeta:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+                <div>
+                    <label for="expiry-date">Fecha de Expiración:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+                </div>
+                <div>
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                <button type="submit" class="btn">Pagar</button>
+            </form>
+        </div>
+
+        <button class="btn" id="confirm-button">Confirmar y Pagar</button>
+        <button class="btn" onclick="goBack()">Cambiar Método de Pago</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de PCs. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../scripts/confirmation.js"></script>
+</body>
+</html>

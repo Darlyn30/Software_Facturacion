@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Método de Pago</title>
+    <link rel="stylesheet" href="../css/payment.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Tienda de PCs</div>
+        </nav>
+    </header>
+
+    <section id="payment">
+        <h2>Seleccionar Método de Pago</h2>
+        <form onsubmit="goToConfirmationPage(); return false;">
+            <div class="payment-method">
+                <input type="radio" id="credit-debit" name="payment-method" value="credit-debit" required>
+                <label for="credit-debit">Tarjeta de Crédito o Débito</label>
+            </div>
+            <div class="payment-method">
+                <input type="radio" id="paypal" name="payment-method" value="paypal" required>
+                <label for="paypal">PayPal</label>
+            </div>
+            <button type="submit" class="btn">Continuar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de PCs. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function goToConfirmationPage() {
+            const selectedPaymentMethod = document.querySelector('input[name="payment-method"]:checked').value;
+            window.location.href = `confirmation.html?payment-method=${selectedPaymentMethod}`;
+        }
+    </script>
+</body>
+</html>
