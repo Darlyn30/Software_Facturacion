@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleccionar Método de Pago</title>
-    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Tienda de PCs</div>
+            <div class="logo" onclick="backHome()">Tienda de PCs</div>
+
         </nav>
     </header>
 
     <section id="payment">
         <h2>Seleccionar Método de Pago</h2>
-        <form onsubmit="goToConfirmationPage(); return false;">
-            <div class="payment-method">
+        
+        <!-- Representaciones Visuales de Métodos de Pago -->
+        <div class="payment-options">
+            <div class="payment-option">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Tarjeta Mastercard" class="payment-icon">
                 <input type="radio" id="credit-debit" name="payment-method" value="credit-debit" required>
                 <label for="credit-debit">Tarjeta de Crédito o Débito</label>
             </div>
-            <div class="payment-method">
+            <div class="payment-option">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="payment-icon">
                 <input type="radio" id="paypal" name="payment-method" value="paypal" required>
                 <label for="paypal">PayPal</label>
             </div>
-            <button type="submit" class="btn">Continuar</button>
-        </form>
+        </div>
+
+        <button type="button" class="btn" onclick="goToConfirmationPage()">Continuar</button>
     </section>
 
     <footer>
@@ -33,10 +39,56 @@
     </footer>
 
     <script>
+
+        
+        
         function goToConfirmationPage() {
             const selectedPaymentMethod = document.querySelector('input[name="payment-method"]:checked').value;
-            window.location.href = `confirmation.html?payment-method=${selectedPaymentMethod}`;
+
+            const params = new URLSearchParams(window.location.search);
+            const productName =  params.get('item-name')// Cambiar según el producto
+            const amount = params.get('amount');
+
+            //para que pueda recibir los parametros y metodos de pago
+            if(selectedPaymentMethod === 'credit-debit'){
+
+                window.location.href = `./confirmation.html?item-name=${encodeURIComponent(productName)}&amount=${amount}&payment-method=credit-debit`;
+            } else if(selectedPaymentMethod === 'paypal'){
+                window.location.href = `./confirmation.html?item-name=${encodeURIComponent(productName)}&amount=${amount}&payment-method=paypal`;
+            }
+            
+            document.addEventListener("DOMContentLoaded", () => {
+            if(productName && amount){
+                document.getElementById("item-name").textContent = productName;
+                document.getElementById("amount").textContent = `$${amount}`;
+            }
+        })
+
         }
+
+        //esta funcion devuelve a la pagina principal
+        function backHome(){
+            window.location.href = '../index.html';
+        }
+
+
     </script>
+
+    <style>
+        .payment-options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .payment-option {
+            text-align: center;
+        }
+        .payment-icon {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+    </style>
 </body>
 </html>

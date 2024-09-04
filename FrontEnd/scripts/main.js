@@ -1,8 +1,10 @@
-const btn = document.querySelectorAll('.btnPay');
+//compra el producto, y recibe los parametros por url para pasarselos al siguiente state
+//que seria payment
+function buyProduct(itemName, amount){
+    window.location.href = `./subpages/payment.html?item-name=${encodeURIComponent(itemName)}&amount=${amount}`;
+}
 
-
-for(let i = 0; i < btn.length; i++){
-    btn[i].addEventListener("click", () => {
-        window.location = "./subpages/payment.html";
-    })
+//cuando haga click en el logo esto estara en todas las paginas, se redigira a la pagina principal
+function home(){
+    window.location.href = '../index.html';
 }
