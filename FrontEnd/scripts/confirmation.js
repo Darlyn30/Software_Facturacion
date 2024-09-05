@@ -40,7 +40,7 @@ function completePurchase() {
         
     } else if (paymentMethod === 'paypal') {
         // Redirigir a PayPal con el monto y el producto
-        window.location.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=darlynolivo15@gmail.com&item_name=${encodeURIComponent(itemName)}&amount=${encodeURIComponent(amount)}&currency_code=USD`;
+        window.location.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=correode@example.com&item_name=${encodeURIComponent(itemName)}&amount=${encodeURIComponent(amount)}&currency_code=USD`;
     }
 }
 
