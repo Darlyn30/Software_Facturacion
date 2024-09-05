@@ -21,18 +21,27 @@ if(paymentMethod === 'credit-debit'){
 
 //funcion para confirmar el pago
 
-function completePurchase(){
-    if(paymentMethod === 'credit-debit'){
+function completePurchase() {
+    if (paymentMethod === 'credit-debit') {
+        // Mostrar el formulario de pago con tarjeta
         document.getElementById('card-payment-form').style.display = 'block';
-        document.getElementById('confirm-button').style.display = 'none';
+        document.getElementById('confirm-button').style.display = 'none'; // Ocultar botón de confirmación
+
+        // Agregar el evento al botón de pagar con tarjeta
+        document.querySelector(".btnPay").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevenir que el formulario se envíe automáticamente
+            swal("Pago completado con tarjeta!", "Gracias por su compra", "success")
+            .then(() => {
+                //aqui tiene que generarle un pdf al usuario con la factura
+
+                window.location.href = '../index.html'; // vuelve a la pagina principal
+            });
+        });
         
-        
-    } else if(paymentMethod === 'paypal'){
+    } else if (paymentMethod === 'paypal') {
+        // Redirigir a PayPal con el monto y el producto
         window.location.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=darlynolivo15@gmail.com&item_name=${encodeURIComponent(itemName)}&amount=${encodeURIComponent(amount)}&currency_code=USD`;
     }
-    
-    
-    
 }
 
 
