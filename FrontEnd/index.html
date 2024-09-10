@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de PCs</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Tienda de PCs</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>Encuentra la PC Perfecta para Ti</h1>
+            <p>Las mejores ofertas en computadoras de escritorio, laptops, y accesorios.</p>
+            <a href="#products" class="btn">Ver Productos</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./src/pc1.jpg" alt="PC Gamer">
+                <h3>PC Gamer</h3>
+                <p>Potente equipo para juegos de última generación.</p>
+                <h1>$250</h1>
+                <button onclick="buyProduct('pc gamer', 250)">Comprar</button>
+
+            </div>
+            <div class="product-card">
+                <img src="./src/laptop.jpg" alt="Laptop Profesional">
+                <h3>Laptop Profesional</h3>
+                <p>Diseño elegante y rendimiento excepcional.</p>
+                <h1>$450</h1>
+                <button onclick="buyProduct('laptop de trabajo', 450)">Comprar</button>
+
+            </div>
+            <div class="product-card">
+                <img src="./src/kitSetUp.jpg" alt="Accesorios">
+                <h3>Accesorios</h3>
+                <p>Todo lo que necesitas para completar tu set-up.</p>
+                <h1>$120</h1>
+                <button onclick="buyProduct('kit perifericos', 120)">Comprar</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una tienda especializada en computadoras y accesorios con más de 10 años en el mercado. Nuestro objetivo es brindarte la mejor tecnología al mejor precio.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de PCs. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    
+</body>
+</html>
