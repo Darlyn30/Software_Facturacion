@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\capalogica\\logica\\facturalogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\logica\\facturalogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\capalogica\\interface\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\interface\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\services\\facturacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\services\\facturacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B275DBE3-49A3-42C6-A1E5-33B87E0856D1}|CapaDatos\\CapaDatos.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\capadatos\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{B275DBE3-49A3-42C6-A1E5-33B87E0856D1}|CapaDatos\\CapaDatos.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\capadatos\\facturacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B275DBE3-49A3-42C6-A1E5-33B87E0856D1}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\facturacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\services\\facturacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\services\\facturacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\capalogica\\interface\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E54FC4-A5F0-41B6-A2AE-6B5245AED8AF}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\interface\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|c:\\users\\zombe\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\programacion\\jslaptop\\sistemafacturacion\\backend_software_facturacion\\backend_software_facturacion\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8EC886-FC0F-43D1-B43D-75911B165494}|BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion.csproj|solutionrelative:backend_software_facturacion\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\appsettings.json",
               "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\appsettings.json",
@@ -59,33 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "FacturacionServices.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Services\\FacturacionServices.cs",
               "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\Services\\FacturacionServices.cs",
               "ToolTip": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Services\\FacturacionServices.cs",
               "RelativeToolTip": "BackEnd_Software_Facturacion\\Services\\FacturacionServices.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBQAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T21:20:57.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FacturaController.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
-              "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
-              "ToolTip": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
-              "RelativeToolTip": "BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:17:10.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IFactura.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\CapaLogica\\Interface\\IFactura.cs",
               "RelativeDocumentMoniker": "CapaLogica\\Interface\\IFactura.cs",
@@ -98,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FacturaLogica.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\CapaLogica\\Logica\\FacturaLogica.cs",
               "RelativeDocumentMoniker": "CapaLogica\\Logica\\FacturaLogica.cs",
@@ -111,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Program.cs",
+              "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\Program.cs",
+              "ToolTip": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Program.cs",
+              "RelativeToolTip": "BackEnd_Software_Facturacion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:11:46.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FacturaContext.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\CapaDatos\\FacturaContext.cs",
               "RelativeDocumentMoniker": "CapaDatos\\FacturaContext.cs",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\CapaDatos\\Factura.cs",
               "RelativeDocumentMoniker": "CapaDatos\\Factura.cs",
@@ -137,15 +137,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Program.cs",
-              "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\Program.cs",
-              "ToolTip": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Program.cs",
-              "RelativeToolTip": "BackEnd_Software_Facturacion\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAaAAAA",
+              "DocumentIndex": 7,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\zombe\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\programacion\\jsLaptop\\sistemaFacturacion\\BackEnd_Software_Facturacion\\BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "BackEnd_Software_Facturacion\\Controllers\\FacturaController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:11:46.32Z",
+              "WhenOpened": "2024-08-30T21:17:10.298Z",
               "EditorCaption": ""
             }
           ]

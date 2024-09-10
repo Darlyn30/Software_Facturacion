@@ -33,15 +33,15 @@ function completePurchase() {
             swal("Pago completado con tarjeta!", "Gracias por su compra", "success")
             .then(() => {
                 //aqui tiene que generarle un pdf al usuario con la factura
-
-                window.location.href = '../index.html'; // vuelve a la pagina principal
-            });
+                window.location.href = "./factura.html";
+            })
         });
         
     } else if (paymentMethod === 'paypal') {
         // Redirigir a PayPal con el monto y el producto
-        window.location.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=correode@example.com&item_name=${encodeURIComponent(itemName)}&amount=${encodeURIComponent(amount)}&currency_code=USD`;
+        window.location.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=darlynolivo15@gmail.com&item_name=${encodeURIComponent(itemName)}&amount=${encodeURIComponent(amount)}&currency_code=USD`;
     }
+    
 }
 
 
@@ -60,3 +60,10 @@ function backHome(){
 
 
 
+//compartir un modulo para utilizarlo en el script de la factura
+
+// export const datos = {
+//     namee : document.getElementById("card-name").value,
+//     item : itemName,
+//     monto: amount
+// }

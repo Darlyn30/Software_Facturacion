@@ -14,6 +14,9 @@ create table facturas(
 	--el software termino siendo enfocado a un negocio de ventas de pc
 )
 
+select * from facturas
+insert into facturas(Nombre, cantidad_pedido, pedido, descripcion_pedido, Fecha_hora) values ('darlyn', 1, 'impresora', 'impresora para imprimir', '2024-02-23')
+
 
 
 select * from facturas

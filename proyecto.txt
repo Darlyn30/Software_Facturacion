@@ -4,4 +4,6 @@ esto me puede servir para aplicarlo a una futura app o futura web que sea para u
 al crear la base de datos, me di cuenta que tengo que saber bajo que contexto va a ir enfocado nuestro sistema
 de facturacion
 
-voy a imaginar que es enfocado a un negocio de venta de piezas de pc
+voy a imaginar que es enfocado a un negocio de venta de piezas de pc\
+
+utilizando por primera vez el gitignore, esto hace que ignore ciertos archivos que no son obligatorios al subirlos

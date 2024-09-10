@@ -8,3 +8,5 @@ function buyProduct(itemName, amount){
 function home(){
     window.location.href = '../index.html';
 }
+
+// export const desc = document.querySelector('p');
